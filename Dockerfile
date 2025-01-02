@@ -1,4 +1,5 @@
 # Stage 1: Build
+
 FROM node:18 as build
 
 WORKDIR /usr/src/app
@@ -8,6 +9,7 @@ RUN npm install --production
 COPY . .
 
 # Stage 2: Production
+
 FROM node:18-slim
 
 WORKDIR /usr/src/app
