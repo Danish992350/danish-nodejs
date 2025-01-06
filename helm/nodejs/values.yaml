@@ -8,11 +8,11 @@ image:
   repository: 396913709751.dkr.ecr.us-east-1.amazonaws.com/development/nodejs
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "465e151aa74a455d1246c89a1396582b829cfd2f"
+  tag: "17a39728d1975764a92641a4b45aee561939c10a"
 
 containers:
   - name: nodejs-app
-    image: 396913709751.dkr.ecr.us-east-1.amazonaws.com/development/nodejs:465e151aa74a455d1246c89a1396582b829cfd2f    
+    image: 396913709751.dkr.ecr.us-east-1.amazonaws.com/development/nodejs:17a39728d1975764a92641a4b45aee561939c10a    
 imagePullSecrets:
   - name: ecr-secret
 nameOverride: ""
