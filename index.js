@@ -24,7 +24,7 @@ import { publicIp, publicIpv4, publicIpv6 } from 'public-ip';
 
 
 // For mongodb
-const mongoUrl = process.env.MONGO_URL || 'mongodb://root:Hw62W3gMkS@mymongo-mongodb.default.svc.cluster.local:27017';
+const mongoUrl = process.env.MONGO_URL || 'mongodb://root:GRWTLyt9vM@my-mongodb.default.svc.cluster.local:27017';
 const client = new MongoClient(mongoUrl);
 
 const db = client.db('admin'); // Name of your database
